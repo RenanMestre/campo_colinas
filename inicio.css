@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Fundo\ início.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center {
+    text-align: center;
+}
+.button {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 25px;
+}
+
+form {
+    background-color: rgb(151, 158, 55);
+    margin: 10px;
+    padding: 15px; 
+}
+
+form legend{
+    font-size: 25px;
+}
+img {
+    width: 650px;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    position: relative;
+    margin: 0 350px;
+}
