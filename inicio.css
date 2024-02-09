@@ -28,13 +28,13 @@ form legend{
     font-size: 25px;
 }
 img {
-    width: 650px;
-    height: 470px;
+    width: 950px;
+    height: 100%;
+    margin: 0 0 0 200px;
     align-items: center;
     justify-content: center;
     background-color: transparent;
     object-fit: cover;
-    margin: 0 350px;
 }
 
 #quadraA{
