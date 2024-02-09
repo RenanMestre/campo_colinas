@@ -16,26 +16,12 @@ body{
 .center {
     text-align: center;
 }
-.button {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    cursor: pointer;
-}
 
 h1{
     font-size: 20px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 25px;
-}
-
-form {
-    background-color: rgb(151, 158, 55);
-    margin: 10px;
-    padding: 15px; 
+    padding: 15px;
 }
 
 form legend{
@@ -43,12 +29,64 @@ form legend{
 }
 img {
     width: 650px;
-    height: 650px;
+    height: 470px;
     align-items: center;
     justify-content: center;
     background-color: transparent;
-    position: relative;
+    object-fit: cover;
     margin: 0 350px;
+}
+
+#quadraA{
+    background-color: transparent;
+    border-color: transparent;
+    margin: 0 auto;
+    height: 80px;
+    width: 195px;
+    top: 0;
+    left: 0;
+    padding: 0.5em;
+    position: absolute;
+    transform: translate(500px, 230px);
+}
+
+#quadraB{
+    background-color: transparent;
+    border-color: transparent;
+    margin: 0 auto;
+    height: 60px;
+    width: 160px;
+    top: 0;
+    left: 0;
+    padding: 0.5em;
+    position: absolute;
+    transform: translate(705px, 250px);
+}
+
+#quadraC{
+    background-color: transparent;
+    border-color: transparent;
+    margin: 0 auto;
+    height: 60px;
+    width: 220px;
+    top: 0;
+    left: 0;
+    padding: 0.5em;
+    position: absolute;
+    transform: translate(470px, 320px);
+}
+
+#solo{
+    background-color: transparent;
+    border-color: transparent;
+    margin: 0 auto;
+    height: 60px;
+    width: 165px;
+    top: 0;
+    left: 0;
+    padding: 0.5em;
+    position: absolute;
+    transform: translate(700px, 330px);
 }
 
 @media screen and (max-width: 1020px){
