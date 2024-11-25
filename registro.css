@@ -9,7 +9,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: url(./img/background.png);
+    background: #101026;
 }
 section{
     display: flex;
@@ -103,4 +103,31 @@ form button:hover{
 }
 .btn:hover{
     border-radius: 16px;
+}
+
+/* Adaptando para telas menores */
+@media (max-width: 768px) {
+    h1.center {
+        font-size: 1.5rem;
+    }
+
+    img {
+        margin-bottom: 15px;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1.center {
+        font-size: 1.2rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+        padding: 8px 12px;
+    }
 }
