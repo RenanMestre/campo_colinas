@@ -1,0 +1,72 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9; /* Cor de fundo clara e suave */
+    color: #333; /* Texto com boa legibilidade */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Título */
+h1.center {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Azul escuro elegante */
+}
+
+/* Imagem com o mapa */
+img {
+    max-width: 100%; /* Tornar a imagem responsiva */
+    height: auto;
+    border: 2px solid #ccc; /* Borda discreta ao redor da imagem */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efeito de sombra suave */
+    margin-bottom: 20px;
+}
+
+/* Botão */
+button {
+    background-color: #3498db; /* Azul vibrante */
+    color: #fff; /* Texto branco */
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Botão ao passar o mouse */
+button:hover {
+    background-color: #2980b9; /* Azul mais escuro */
+}
+
+/* Links para botões */
+a {
+    text-decoration: none; /* Remover sublinhado do link */
+}
+
+/* Adaptando para telas menores */
+@media (max-width: 768px) {
+    h1.center {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}

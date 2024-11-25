@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registro.css">
+    <title>Registro</title>
+</head>
+<body>
+    <section>
+        <h2>Registro</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome</label>
+            <input type="text" name="$nome" placeholder="Digite seu nome" autocomplete="off" required>
+            <label>Quadra</label>
+            <input type="text" name="$quadras" placeholder ="Quadras concluídas ou trabalhadas" required>
+            <label>Observação</label>
+            <textarea name="$menssagem" cols="30" rows="10" placeholder="Escrevas observações como os números por exemplo..." required></textarea>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="f61c02e4-3f14-4dcf-b8ae-b9b98b3bdf8c">
+            <input type="hidden" name="redirectTo" value="https://renanmestre.github.io/obrigado.html">
+        </form>
+    </section>
+</body>
+</html>
